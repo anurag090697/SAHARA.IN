@@ -1,0 +1,821 @@
+{
+  "status": "OK",
+  "request_id": "89458096-b6e6-4d92-bf86-9dd6a3b5fde1",
+  "data": {
+    "deals": [
+      {
+        "deal_id": "4ecd032a",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Kindle Paperwhite (16 GB) – Now with a larger display, adjustable warm light, increased battery life, and faster page turns – Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/61gIwK6CyPL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Kindle-Paperwhite-16-GB-adjustable/dp/B09TMN58KL",
+        "canonical_deal_url": "https://www.amazon.com/deal/4ecd032a",
+        "deal_starts_at": "2024-05-05T07:00:00.000Z",
+        "deal_ends_at": "2024-05-13T07:00:00.000Z",
+        "deal_price": {
+          "amount": "114.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "149.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 23,
+        "savings_amount": {
+          "amount": "35.0",
+          "currency": "USD"
+        },
+        "deal_badge": "23% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09TMN58KL"
+      },
+      {
+        "deal_id": "7ff715e1",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Apple AirPods Max Wireless Over-Ear Headphones, Active Noise Cancelling, Transparency Mode, Personalized Spatial Audio, Dolby Atmos, Bluetooth Headphones for iPhone – Space Gray",
+        "deal_photo": "https://m.media-amazon.com/images/I/81jqUPkIVRL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/New-Apple-AirPods-Max-Space/dp/B08PZHYWJS",
+        "canonical_deal_url": "https://www.amazon.com/deal/7ff715e1",
+        "deal_starts_at": "2024-05-09T07:00:00.000Z",
+        "deal_ends_at": "2024-05-24T06:59:59.000Z",
+        "deal_price": {
+          "amount": "449.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "549.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 18,
+        "savings_amount": {
+          "amount": "99.01",
+          "currency": "USD"
+        },
+        "deal_badge": "18% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B08PZHYWJS"
+      },
+      {
+        "deal_id": "40fabffe",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Skylight Calendar: 15 inch Digital Calendar & Chore Chart, Smart Touchscreen Interactive Display for Family Schedules - Wall Mount Included",
+        "deal_photo": "https://m.media-amazon.com/images/I/61kdlvrgoUL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Skylight-Calendar-Touchscreen-Interactive-Schedules/dp/B0C9V811L6",
+        "canonical_deal_url": "https://www.amazon.com/deal/40fabffe",
+        "deal_starts_at": "2024-05-06T07:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:45:00.000Z",
+        "deal_price": {
+          "amount": "249.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "319.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 22,
+        "savings_amount": {
+          "amount": "70.0",
+          "currency": "USD"
+        },
+        "deal_badge": "22% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0C9V811L6"
+      },
+      {
+        "deal_id": "ac8aefd1",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "SAMSUNG Galaxy S24 Ultra Cell Phone, 256GB AI Smartphone, Unlocked Android, 200MP, 100x Zoom Cameras, Long Battery Life, S Pen, US Version, 2024, Titanium Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/71WcjsOVOmL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/SAMSUNG-Smartphone-Unlocked-Android-Titanium/dp/B0CMDM65JH",
+        "canonical_deal_url": "https://www.amazon.com/deal/ac8aefd1",
+        "deal_starts_at": "2024-05-06T07:00:00.000Z",
+        "deal_ends_at": "2024-05-10T06:59:59.000Z",
+        "deal_price": {
+          "amount": "1049.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "1299.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 19,
+        "savings_amount": {
+          "amount": "250.0",
+          "currency": "USD"
+        },
+        "deal_badge": "19% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CMDM65JH"
+      },
+      {
+        "deal_id": "6646e8df",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Apple 2022 MacBook Air Laptop with M2 chip: 13.6-inch Liquid Retina Display, 8GB RAM, 256GB SSD Storage, Backlit Keyboard, 1080p FaceTime HD Camera. Works with iPhone and iPad; Space Gray",
+        "deal_photo": "https://m.media-amazon.com/images/I/71f5Eu5lJSL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/2022-Apple-MacBook-Laptop-chip/dp/B0B3C2R8MP",
+        "canonical_deal_url": "https://www.amazon.com/deal/6646e8df",
+        "deal_starts_at": "2024-05-09T00:00:00.000Z",
+        "deal_ends_at": "2024-05-16T06:59:59.000Z",
+        "deal_price": {
+          "amount": "829.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "999.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 17,
+        "savings_amount": {
+          "amount": "170.0",
+          "currency": "USD"
+        },
+        "deal_badge": "17% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0B3C2R8MP"
+      },
+      {
+        "deal_id": "35f80eae",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Beats Studio Buds - True Wireless Noise Cancelling Earbuds - Compatible with Apple & Android, Built-in Microphone, IPX4 Rating, Sweat Resistant Earphones, Class 1 Bluetooth Headphones - Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/51bRSWrEc7S.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Beats-Studio-Cancelling-Earbuds-Built-Bluetooth-Headphones/dp/B096SV8SJG",
+        "canonical_deal_url": "https://www.amazon.com/deal/35f80eae",
+        "deal_starts_at": "2024-05-05T07:00:00.000Z",
+        "deal_ends_at": "2024-05-19T06:59:59.000Z",
+        "deal_price": {
+          "amount": "79.95",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "149.95",
+          "currency": "USD"
+        },
+        "savings_percentage": 47,
+        "savings_amount": {
+          "amount": "70.0",
+          "currency": "USD"
+        },
+        "deal_badge": "47% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B096SV8SJG"
+      },
+      {
+        "deal_id": "cc1b7bfa",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Ring Video Doorbell - 1080p HD video, improved motion detection, easy installation – Satin Nickel",
+        "deal_photo": "https://m.media-amazon.com/images/I/71vtXgJBagL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Ring-Video-Doorbell-Satin-Nickel-2020-Release/dp/B08N5NQ869",
+        "canonical_deal_url": "https://www.amazon.com/deal/cc1b7bfa",
+        "deal_starts_at": "2024-05-09T04:00:00.000Z",
+        "deal_ends_at": "2024-05-10T04:00:00.000Z",
+        "deal_price": {
+          "amount": "54.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "99.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 45,
+        "savings_amount": {
+          "amount": "45.0",
+          "currency": "USD"
+        },
+        "deal_badge": "45% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B08N5NQ869"
+      },
+      {
+        "deal_id": "35f80eae",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Beats Studio Pro - Wireless Bluetooth Noise Cancelling Headphones - Personalized Spatial Audio, USB-C Lossless Audio, Apple & Android Compatibility, Up to 40 Hours Battery Life - Sandstone",
+        "deal_photo": "https://m.media-amazon.com/images/I/51t0IE0zjaL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Beats-Studio-Pro-Personalized-Compatibility/dp/B0C8PSMPTH",
+        "canonical_deal_url": "https://www.amazon.com/deal/35f80eae",
+        "deal_starts_at": "2024-05-05T07:00:00.000Z",
+        "deal_ends_at": "2024-05-19T06:59:59.000Z",
+        "deal_price": {
+          "amount": "179.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "349.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 49,
+        "savings_amount": {
+          "amount": "170.0",
+          "currency": "USD"
+        },
+        "deal_badge": "10% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0C8PSMPTH"
+      },
+      {
+        "deal_id": "0f5ab719",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Skylight Digital Picture Frame - WiFi Enabled with Load from Phone Capability, Touch Screen Digital Photo Frame Display - Gifts for Mom, Preload Photos Before Gifting - 10 Inch Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/71+UxmhkGvL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Skylight-Frame-Digital-Picture-Anywhere/dp/B01N7ENHO6",
+        "canonical_deal_url": "https://www.amazon.com/deal/0f5ab719",
+        "deal_starts_at": "2024-05-06T07:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:45:00.000Z",
+        "deal_price": {
+          "amount": "119.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "169.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 29,
+        "savings_amount": {
+          "amount": "50.0",
+          "currency": "USD"
+        },
+        "deal_badge": "29% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B01N7ENHO6"
+      },
+      {
+        "deal_id": "83387854",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Aura Carver 10.1\" WiFi Digital Picture Frame - Wirecutter's Best for Gifting, Send Photos from Phone, Free Storage",
+        "deal_photo": "https://m.media-amazon.com/images/I/713DvWGXoBL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Digital-Picture-Unlimited-Storage-Anywhere/dp/B09X2CL5HG",
+        "canonical_deal_url": "https://www.amazon.com/deal/83387854",
+        "deal_starts_at": "2024-05-06T07:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:45:00.000Z",
+        "deal_price": {
+          "amount": "148.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "179.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 17,
+        "savings_amount": {
+          "amount": "30.01",
+          "currency": "USD"
+        },
+        "deal_badge": "17% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09X2CL5HG"
+      },
+      {
+        "deal_id": "29b8c69f",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "All-new Amazon Fire TV Stick 4K streaming device, more than 1.5 million movies and TV episodes, supports Wi-Fi 6, watch free & live TV",
+        "deal_photo": "https://m.media-amazon.com/images/I/41vhe0X8wbL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/all-new-amazon-fire-tv-stick-4k/dp/B0BP9MDCQZ",
+        "canonical_deal_url": "https://www.amazon.com/deal/29b8c69f",
+        "deal_starts_at": "2024-05-01T15:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:59:59.000Z",
+        "deal_price": {
+          "amount": "29.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "49.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 40,
+        "savings_amount": {
+          "amount": "20.0",
+          "currency": "USD"
+        },
+        "deal_badge": "40% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BP9MDCQZ"
+      },
+      {
+        "deal_id": "4ecd032a",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Kindle – The lightest and most compact Kindle, with extended battery life, adjustable front light, and 16 GB storage – Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/71IBFfy8TmL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/kindle-the-lightest-and-most-compact-kindle/dp/B09SWW583J",
+        "canonical_deal_url": "https://www.amazon.com/deal/4ecd032a",
+        "deal_starts_at": "2024-05-05T07:00:00.000Z",
+        "deal_ends_at": "2024-05-13T07:00:00.000Z",
+        "deal_price": {
+          "amount": "79.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "99.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 20,
+        "savings_amount": {
+          "amount": "20.0",
+          "currency": "USD"
+        },
+        "deal_badge": "20% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09SWW583J"
+      },
+      {
+        "deal_id": "a99633ae",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Echo Pop | Compact smart speaker with Alexa | premium Alexa features available for purchase | Charcoal",
+        "deal_photo": "https://m.media-amazon.com/images/I/61V5FRUgX8L.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Introducing-sound-compact-speaker-Charcoal/dp/B09WNK39JN",
+        "canonical_deal_url": "https://www.amazon.com/deal/a99633ae",
+        "deal_starts_at": "2024-04-28T04:00:00.000Z",
+        "deal_ends_at": "2024-05-13T03:55:00.000Z",
+        "deal_price": {
+          "amount": "19.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "39.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 50,
+        "savings_amount": {
+          "amount": "20.0",
+          "currency": "USD"
+        },
+        "deal_badge": "50% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09WNK39JN"
+      },
+      {
+        "deal_id": "8aa9a85c",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Kindle Scribe (16 GB) - 10.2” 300 ppi Paperwhite display, a Kindle and a notebook all in one, convert notes to text and share, includes Basic Pen",
+        "deal_photo": "https://m.media-amazon.com/images/I/71dZG7-QflL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Kindle-Scribe-the-first-Kindle-for-reading-writing-journaling-and-sketching/dp/B09BS26B8B",
+        "canonical_deal_url": "https://www.amazon.com/deal/8aa9a85c",
+        "deal_starts_at": "2024-05-05T07:00:00.000Z",
+        "deal_ends_at": "2024-05-21T15:00:00.000Z",
+        "deal_price": {
+          "amount": "239.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "339.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 29,
+        "savings_amount": {
+          "amount": "100.0",
+          "currency": "USD"
+        },
+        "deal_badge": "29% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09BS26B8B"
+      },
+      {
+        "deal_id": "1485277a",
+        "deal_type": "LIGHTNING_DEAL",
+        "deal_title": "Emojoy Knife Set, 18-Piece Kitchen Knife Set with Block Wooden, Manual Sharpening for Chef Knife Set, German Stainless Steel",
+        "deal_photo": "https://m.media-amazon.com/images/I/7198wSmGISL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Emojoy-18-Piece-Kitchen-Sharpening-Stainless/dp/B07H6WGWMD",
+        "canonical_deal_url": "https://www.amazon.com/deal/1485277a",
+        "deal_starts_at": "2024-05-09T16:20:00.000Z",
+        "deal_ends_at": "2024-05-10T03:50:00.000Z",
+        "deal_price": {
+          "amount": "71.98",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "89.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 20,
+        "savings_amount": {
+          "amount": "18.01",
+          "currency": "USD"
+        },
+        "deal_badge": "20% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B07H6WGWMD"
+      },
+      {
+        "deal_id": "7c49ed68",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "SAMSUNG 49-Inch Odyssey G9 Series DQHD 1000R Curved Gaming Monitor, 1ms(GtG), VESA DisplayHDR 1000, 240Hz, AMD FreeSync Premium Pro, Height Adjustable Stand, LS49CG954ENXZA, 2024",
+        "deal_photo": "https://m.media-amazon.com/images/I/71lXYTc4nLL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/SAMSUNG-DisplayHDR-FreeSync-Adjustable-LS49CG954ENXZA/dp/B0CP6HW894",
+        "canonical_deal_url": "https://www.amazon.com/deal/7c49ed68",
+        "deal_starts_at": "2024-05-06T07:05:00.000Z",
+        "deal_ends_at": "2024-05-13T06:59:59.000Z",
+        "deal_price": {
+          "amount": "799.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "1299.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 38,
+        "savings_amount": {
+          "amount": "500.0",
+          "currency": "USD"
+        },
+        "deal_badge": "38% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CP6HW894"
+      },
+      {
+        "deal_id": "68bdc57e",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "All-new Echo Show 8 (3rd Gen, 2023 release) | With Spatial Audio, Smart Home Hub, and Alexa | Glacier White",
+        "deal_photo": "https://m.media-amazon.com/images/I/71cJrIMKvPL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/All-new-Echo-Show-8/dp/B0BLS3QJTX",
+        "canonical_deal_url": "https://www.amazon.com/deal/68bdc57e",
+        "deal_starts_at": "2024-05-05T04:00:00.000Z",
+        "deal_ends_at": "2024-05-13T03:55:00.000Z",
+        "deal_price": {
+          "amount": "99.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "149.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 33,
+        "savings_amount": {
+          "amount": "50.0",
+          "currency": "USD"
+        },
+        "deal_badge": "33% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BLS3QJTX"
+      },
+      {
+        "deal_id": "0d74d7f4",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "BISSELL Little Green Multi-Purpose Portable Carpet and Upholstery Cleaner, Car and Auto Detailer, with Exclusive Specialty Tools, Green, 1400B",
+        "deal_photo": "https://m.media-amazon.com/images/I/71rVn38FjXL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Bissell-Multi-Purpose-Portable-Upholstery-1400B/dp/B0016HF5GK",
+        "canonical_deal_url": "https://www.amazon.com/deal/0d74d7f4",
+        "deal_starts_at": "2024-04-30T07:00:00.000Z",
+        "deal_ends_at": "2024-06-05T06:59:59.999Z",
+        "deal_price": {
+          "amount": "98.59",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "123.59",
+          "currency": "USD"
+        },
+        "savings_percentage": 20,
+        "savings_amount": {
+          "amount": "25.0",
+          "currency": "USD"
+        },
+        "deal_badge": "20% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0016HF5GK"
+      },
+      {
+        "deal_id": "c18f3f84",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "AncestryDNA Genetic Test Kit: Personalized Genetic Results, DNA Ethnicity Test, Origins & Ethnicities, Complete DNA Test",
+        "deal_photo": "https://m.media-amazon.com/images/I/617BGIO5IoL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/AncestryDNA-Genetic-Ethnicity-Test/dp/B00TRLVKW0",
+        "canonical_deal_url": "https://www.amazon.com/deal/c18f3f84",
+        "deal_starts_at": "2024-05-06T07:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:45:00.000Z",
+        "deal_price": {
+          "amount": "39.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "99.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 61,
+        "savings_amount": {
+          "amount": "60.0",
+          "currency": "USD"
+        },
+        "deal_badge": "61% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B00TRLVKW0"
+      },
+      {
+        "deal_id": "66145a21",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "All-new Amazon Fire HD 10 tablet, built for relaxation, 10.1\" vibrant Full HD screen, octa-core processor, 3 GB RAM, latest model (2023 release), 32 GB, Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/61mmQjjSEeL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Amazon_Fire_HD_10/dp/B0BHZT5S12",
+        "canonical_deal_url": "https://www.amazon.com/deal/66145a21",
+        "deal_starts_at": "2024-05-05T16:00:00.000Z",
+        "deal_ends_at": "2024-05-28T04:00:00.000Z",
+        "deal_price": {
+          "amount": "94.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "139.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 32,
+        "savings_amount": {
+          "amount": "45.0",
+          "currency": "USD"
+        },
+        "deal_badge": "32% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BHZT5S12"
+      },
+      {
+        "deal_id": "fcd18395",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Canupdog 10.1 WiFi Digital Picture Frame, IPS Touch Screen Smart Cloud Digital Photo Frame with 16GB Storage, Wall Mountable, Auto-Rotate, Share Photos via Frameo App",
+        "deal_photo": "https://m.media-amazon.com/images/I/71AOAQxKEBL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Digital-Canupdog-Storage-Mountable-Auto-Rotate/dp/B09MQ5L5N9",
+        "canonical_deal_url": "https://www.amazon.com/deal/fcd18395",
+        "deal_starts_at": "2024-05-06T07:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:45:00.000Z",
+        "deal_price": {
+          "amount": "59.49",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "99.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 41,
+        "savings_amount": {
+          "amount": "40.5",
+          "currency": "USD"
+        },
+        "deal_badge": "41% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09MQ5L5N9"
+      },
+      {
+        "deal_id": "a99633ae",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Echo Dot (5th Gen, 2022 release) | With bigger vibrant sound, helpful routines and Alexa | Charcoal",
+        "deal_photo": "https://m.media-amazon.com/images/I/518cRYanpbL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/All-New-release-Smart-speaker-Charcoal/dp/B09B8V1LZ3",
+        "canonical_deal_url": "https://www.amazon.com/deal/a99633ae",
+        "deal_starts_at": "2024-04-28T04:00:00.000Z",
+        "deal_ends_at": "2024-05-13T03:55:00.000Z",
+        "deal_price": {
+          "amount": "27.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "49.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 44,
+        "savings_amount": {
+          "amount": "22.0",
+          "currency": "USD"
+        },
+        "deal_badge": "44% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09B8V1LZ3"
+      },
+      {
+        "deal_id": "29b8c69f",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "All-new Amazon Fire TV Stick 4K Max streaming device, supports Wi-Fi 6E, free & live TV without cable or satellite",
+        "deal_photo": "https://m.media-amazon.com/images/I/41P0qtzxWSL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/all-new-amazon-fire-tv-stick-4k-max/dp/B0BP9SNVH9",
+        "canonical_deal_url": "https://www.amazon.com/deal/29b8c69f",
+        "deal_starts_at": "2024-05-01T15:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:59:59.000Z",
+        "deal_price": {
+          "amount": "39.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "59.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 33,
+        "savings_amount": {
+          "amount": "20.0",
+          "currency": "USD"
+        },
+        "deal_badge": "33% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BP9SNVH9"
+      },
+      {
+        "deal_id": "c412beb3",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Bose QuietComfort Wireless Noise Cancelling Headphones, Bluetooth Over Ear Headphones with Up To 24 Hours of Battery Life, Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/51QeS0jkx-L.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Bose-QuietComfort-Cancelling-Headphones-Bluetooth/dp/B0CCZ26B5V",
+        "canonical_deal_url": "https://www.amazon.com/deal/c412beb3",
+        "deal_starts_at": "2024-04-26T07:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:59:59.000Z",
+        "deal_price": {
+          "amount": "249.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "349.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 29,
+        "savings_amount": {
+          "amount": "100.0",
+          "currency": "USD"
+        },
+        "deal_badge": "29% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0CCZ26B5V"
+      },
+      {
+        "deal_id": "128cb68c",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "LEVOIT Air Purifiers for Home Large Room Up to 1800 Ft² in 1 Hr with Washable Filters, Air Quality Monitor, Smart WiFi, HEPA Sleep Mode for Allergies, Pet Hair, Pollen in Bedroom, Vital 200S-P, White",
+        "deal_photo": "https://m.media-amazon.com/images/I/819aVYeAJxL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/LEVOIT-Purifiers-Washable-Filters-Quality/dp/B0BGPF71Q6",
+        "canonical_deal_url": "https://www.amazon.com/deal/128cb68c",
+        "deal_starts_at": "2024-05-06T07:00:00.000Z",
+        "deal_ends_at": "2024-05-12T06:59:59.000Z",
+        "deal_price": {
+          "amount": "159.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "189.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 16,
+        "savings_amount": {
+          "amount": "30.0",
+          "currency": "USD"
+        },
+        "deal_badge": "16% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B0BGPF71Q6"
+      },
+      {
+        "deal_id": "1bbdfd58",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "EGO Power+ LB7654 765 CFM Variable-Speed 56-Volt Lithium-ion Cordless Leaf Blower with Shoulder Strap, 5.0Ah Battery and Charger Included",
+        "deal_photo": "https://m.media-amazon.com/images/I/41o1MyGvr1L.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/EGO-Power-LB7654-Variable-Speed-Lithium-ion/dp/B09RNDQCV3",
+        "canonical_deal_url": "https://www.amazon.com/deal/1bbdfd58",
+        "deal_starts_at": "2024-05-01T07:00:00.000Z",
+        "deal_ends_at": "2024-06-01T06:59:59.000Z",
+        "deal_price": {
+          "amount": "230.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "329.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 30,
+        "savings_amount": {
+          "amount": "99.0",
+          "currency": "USD"
+        },
+        "deal_badge": "30% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09RNDQCV3"
+      },
+      {
+        "deal_id": "29b8c69f",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Amazon Fire TV Stick, HD, sharp picture quality, fast streaming, free & live TV, Alexa Voice Remote with TV controls",
+        "deal_photo": "https://m.media-amazon.com/images/I/51TjJOTfslL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/fire-tv-stick-with-3rd-gen-alexa-voice-remote/dp/B08C1W5N87",
+        "canonical_deal_url": "https://www.amazon.com/deal/29b8c69f",
+        "deal_starts_at": "2024-05-01T15:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:59:59.000Z",
+        "deal_price": {
+          "amount": "24.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "39.99",
+          "currency": "USD"
+        },
+        "savings_percentage": 38,
+        "savings_amount": {
+          "amount": "15.0",
+          "currency": "USD"
+        },
+        "deal_badge": "38% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B08C1W5N87"
+      },
+      {
+        "deal_id": "c412beb3",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Bose SoundLink Flex Bluetooth Speaker, Portable Speaker with Microphone, Wireless Waterproof Speaker for Travel, Outdoor and Pool Use, Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/71eLvseXOmL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Bose-SoundLink-Bluetooth-Portable-Waterproof/dp/B099TJGJ91",
+        "canonical_deal_url": "https://www.amazon.com/deal/c412beb3",
+        "deal_starts_at": "2024-04-26T07:00:00.000Z",
+        "deal_ends_at": "2024-05-13T06:59:59.000Z",
+        "deal_price": {
+          "amount": "119.0",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "149.0",
+          "currency": "USD"
+        },
+        "savings_percentage": 20,
+        "savings_amount": {
+          "amount": "30.0",
+          "currency": "USD"
+        },
+        "deal_badge": "20% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B099TJGJ91"
+      },
+      {
+        "deal_id": "35f80eae",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Beats Powerbeats Pro Wireless Earbuds - Apple H1 Headphone Chip, Class 1 Bluetooth Headphones, 9 Hours of Listening Time, Sweat Resistant, Built-in Microphone - Black",
+        "deal_photo": "https://m.media-amazon.com/images/I/61yKNXIjxQL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Powerbeats-Pro-Totally-Wireless-Earphones/dp/B07R5QD598",
+        "canonical_deal_url": "https://www.amazon.com/deal/35f80eae",
+        "deal_starts_at": "2024-05-05T07:00:00.000Z",
+        "deal_ends_at": "2024-05-19T06:59:59.000Z",
+        "deal_price": {
+          "amount": "159.95",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "249.95",
+          "currency": "USD"
+        },
+        "savings_percentage": 36,
+        "savings_amount": {
+          "amount": "90.0",
+          "currency": "USD"
+        },
+        "deal_badge": "36% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B07R5QD598"
+      },
+      {
+        "deal_id": "35f80eae",
+        "deal_type": "BEST_DEAL",
+        "deal_title": "Beats Fit Pro - True Wireless Noise Cancelling Earbuds - Apple H1 Headphone Chip, Compatible with Apple & Android, Class 1 Bluetooth, Built-in Microphone, 6 Hours of Listening Time - Stone Purple",
+        "deal_photo": "https://m.media-amazon.com/images/I/51cy9h4ClZL.jpg",
+        "deal_state": "AVAILABLE",
+        "deal_url": "https://www.amazon.com/Beats-Fit-Pro-Cancelling-Built/dp/B09JL5CY5Z",
+        "canonical_deal_url": "https://www.amazon.com/deal/35f80eae",
+        "deal_starts_at": "2024-05-05T07:00:00.000Z",
+        "deal_ends_at": "2024-05-19T06:59:59.000Z",
+        "deal_price": {
+          "amount": "159.99",
+          "currency": "USD"
+        },
+        "list_price": {
+          "amount": "199.95",
+          "currency": "USD"
+        },
+        "savings_percentage": 20,
+        "savings_amount": {
+          "amount": "39.96",
+          "currency": "USD"
+        },
+        "deal_badge": "20% off",
+        "type": "SINGLE_ITEM",
+        "product_asin": "B09JL5CY5Z"
+      }
+    ],
+    "total_deals": null,
+    "country": "US",
+    "domain": "www.amazon.com"
+  }
+}

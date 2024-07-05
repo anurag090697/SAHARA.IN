@@ -1,18 +1,38 @@
 /** @format */
 
-import React, { useContext } from "react";
+// import React, { useContext, useEffect } from "react";
 import { FaCheck } from "react-icons/fa6";
 import { HiOutlineSpeakerWave } from "react-icons/hi2";
-// import StarRating from "./StarRating";
+
 import { FaStar } from "react-icons/fa6";
 import { FaRegStar } from "react-icons/fa6";
 import { FaChevronDown } from "react-icons/fa";
-import { saharaContext } from "../App";
+// import { saharaContext } from "../App";
 import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { addToCart, addToWishlist } from "../slice";
 
 function ProductCard(props) {
-  const { cart, setCart } = useContext(saharaContext);
+  const dispatch = useDispatch();
+
+  // const { user } = useContext(saharaContext);
+
+  // const { cart, wishlist, productDetails } = useSelector(
+  //   (state) => state.eCommerce
+  // );
+
+  // const userId = user.uid;
+
+  function handleAddToCart(item) {
+    dispatch(addToCart(item));
+  }
+
+  function addTolist(item) {
+    dispatch(addToWishlist(item));
+  }
+
   const navigate = useNavigate();
+
   function speak(text) {
     const utterance = new SpeechSynthesisUtterance(text);
     const voices = window.speechSynthesis.getVoices();
@@ -24,7 +44,7 @@ function ProductCard(props) {
   function starRating(num) {
     let tm = [1, 2, 3, 4, 5];
     const stars = tm.map((ele, idx) => {
-      return idx+1 <= num ? (
+      return idx + 1 <= num ? (
         <FaStar className='text-amber-500' key={idx} />
       ) : (
         <FaRegStar className='text-white' key={idx} />
@@ -33,7 +53,6 @@ function ProductCard(props) {
     return stars;
   }
 
-  function updateCart(code) {}
   return (
     <div className='flex  gap-3 my-6 bg-gray-300 border-2 border-gray-400 rounded-lg overflow-hidden items-start justify-start'>
       <div>
@@ -70,7 +89,8 @@ function ProductCard(props) {
         <div>
           {props.info.product_num_ratings ? (
             <div className='flex items-center gap-3'>
-              {" "} <span>{props.info.product_star_rating }</span>
+              {" "}
+              <span>{props.info.product_star_rating}</span>
               <span className='flex'>
                 {starRating(props.info.product_star_rating)}{" "}
                 <FaChevronDown className='text-gray-600' />
@@ -109,10 +129,16 @@ function ProductCard(props) {
         </div>
         <div>{props.info.delivery}</div>
         <div className='flex gap-6 items-center'>
-          <button className='rounded-xl text-gray-100 bg-lime-500 p-2 font-medium shadow-md shadow-lime-800 border-2 border-lime-600 hover:bg-lime-300 hover:text-rose-500 hover:shadow-none'>
+          <button
+            onClick={() => handleAddToCart(props.info)}
+            className='rounded-xl text-gray-100 bg-lime-500 p-2 font-medium shadow-md shadow-lime-800 border-2 border-lime-600 hover:bg-lime-300 hover:text-rose-500 hover:shadow-none'
+          >
             Add To Cart
           </button>
-          <button className='rounded-xl text-gray-100 bg-rose-500 p-2 font-medium shadow-md shadow-rose-800 border-2 border-rose-600 hover:bg-rose-300 hover:text-sky-500 hover:shadow-none'>
+          <button
+            onClick={() => addTolist(props.info)}
+            className='rounded-xl text-gray-100 bg-rose-500 p-2 font-medium shadow-md shadow-rose-800 border-2 border-rose-600 hover:bg-rose-300 hover:text-sky-500 hover:shadow-none'
+          >
             Add To Wishlist
           </button>
         </div>

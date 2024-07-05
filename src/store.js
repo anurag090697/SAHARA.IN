@@ -5,7 +5,7 @@ import { eCommerceReducer } from "./slice";
 
 const store = configureStore({
   reducer: {
-    eCommerceReducer: eCommerceReducer,
+    eCommerce: eCommerceReducer,  
   },
 });
 

@@ -1,14 +1,21 @@
 /** @format */
 
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import ProductCard from "./ProductCard";
-import data from "./tempArr";
+// import React, { useEffect, useState } from "react";
+
+// import ProductCard from "./ProductCard";
+// import data from "./tempArr";
+import BestSellers from "./BestSellers";
+import Deals from "./Deals";
+import TodayDeals from "./TodayDeals";
 
 function Home() {
- 
   return (
-    <div>hii</div>
+    <div>
+      {" "}
+      <TodayDeals></TodayDeals>
+      <Deals></Deals>
+      <BestSellers></BestSellers>
+    </div>
   );
 }
 
