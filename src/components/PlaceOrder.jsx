@@ -44,8 +44,9 @@ function PlaceOrder() {
   const dispatch = useDispatch();
 
   function clearcart() {
+    e.preventDefault();
     // cart.forEach((element) => {
-    //   //   dispatch(removeFromCart(element.asin));
+    //     dispatch(removeFromCart(element.asin));
     // });
     dispatch(clearCart());
   }

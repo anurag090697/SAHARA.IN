@@ -64,7 +64,7 @@ function Cart() {
                   <h2 className='text-rose-500'>{ele.title}</h2>
                   <h3>Offer Price- {ele.price}</h3>
                   <h3>
-                    Total Dicount- Rs. {discount(ele.original_price, ele.price)}
+                    {ele.original_price ? <> Total Dicount- Rs. { discount(ele.original_price, ele.price)}</> : ""}
                   </h3>
                   <p className='text-blue-500'>{ele.delivery}</p>
                   <p> Quantity- {ele.quantity}</p>
@@ -102,7 +102,7 @@ function Cart() {
               <p></p>
             )}
             <div className='bg-gray-200 p-2 font-medium flex items-center justify-between'>
-              {totaldiscount(cart)}
+              {cart ? <>totaldiscount(cart)</> : ""}
             </div>
             <button onClick={() => navigate('/placeorder')} className='bg-sky-300 p-2 my-3 mx-2 rounded-lg border-2 border-sky-700 font-medium shadow-md shadow-sky-800 text-emerald-800 hover:bg-sky-100 hover:shadow-none'>
               Place Order

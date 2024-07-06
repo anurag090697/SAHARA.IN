@@ -33,7 +33,7 @@ function LogIn() {
           email: user.email,
           displayName: user.displayName,
         });
-        // navigate("/");
+        navigate("/");
       } else {
         // User is signed out
         setUser(null);
@@ -68,7 +68,7 @@ function LogIn() {
       setUser(userCredential.user); 
 
       // console.log(userCredential)
-      // navigate("/"); 
+      navigate("/"); 
     } catch (error) {
       setFailMessage("Email / Password Incorrect. Try Again...");
     }

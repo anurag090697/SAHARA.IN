@@ -13,7 +13,7 @@ import { saharaContext } from "../App";
 import { useSelector } from "react-redux";
 
 function Header() {
-  const { user, setUser, setCart } = useContext(saharaContext);
+  const { user, setUser } = useContext(saharaContext);
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
   const { cart } = useSelector((state) => state.eCommerce);
@@ -65,6 +65,7 @@ function Header() {
       alert("Input too short..");
     else {
       navigate("/searchresults/" + searchQuery);
+      setSearchQuery("");
     }
   }
 
@@ -120,19 +121,25 @@ function Header() {
           </form>
         </div>
         <div className='flex items-center justify-center w-fit gap-6'>
-          <NavLink to='/wishlist'>
-            <FaHeart className='text-4xl text-rose-600' />
-          </NavLink>
+          {user ? (
+            <>
+              <NavLink to='/wishlist'>
+                <FaHeart className='text-4xl text-rose-600' />
+              </NavLink>
 
-          <NavLink
-            to='/cart'
-            className='relative flex items-center justify-center w-fit gap-2'
-          >
-            <CiShoppingCart className='text-6xl' />
-            <p className='absolute bottom-6 right-3 z-30 text-xl text-gray-100 bg-blue-600 cursor-pointer px-2 rounded-full'>
-              {totalProds ? totalProds : ""}
-            </p>
-          </NavLink>
+              <NavLink
+                to='/cart'
+                className='relative flex items-center justify-center w-fit gap-2'
+              >
+                <CiShoppingCart className='text-6xl' />
+                <p className='absolute bottom-6 right-3 z-30 text-xl text-gray-100 bg-blue-600 cursor-pointer px-2 rounded-full'>
+                  {totalProds ? totalProds : ""}
+                </p>
+              </NavLink>
+            </>
+          ) : (
+            ""
+          )}
 
           <div>{logio}</div>
         </div>

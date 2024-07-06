@@ -21,6 +21,12 @@ function Wishlisht() {
     return Math.ceil(x - y);
   };
 
+  // if (wishlist.length < 1) {
+  //   return <div className='min-h-96 flex items-center justify-center font-bold text-3xl text-fuchsia-600'>
+  //   {" "}
+  //   NOTHING TO SEE HERE
+  // </div>
+  // }
   return (
     <div className='bg-orange-100 py-5 px-20 '>
       <h1 className='text-3xl font-medium text-center bg-pink-300 text-blue-600 rounded-lg border-2 border-gray-300 shadow-rose-800 shadow-lg'>
@@ -44,7 +50,7 @@ function Wishlisht() {
                   </h2>
                   <h2>Price- {ele.price}</h2>
                   <h3>
-                    Total Dicount- Rs. {discount(ele.original_price, ele.price)}
+                  {ele.original_price ? <> Total Dicount- Rs. { discount(ele.original_price, ele.price)}</> : ""}
                   </h3>
                 </div>
                 <button
