@@ -5,19 +5,6 @@
 
 SAHARA.IN is a React-based e-commerce application that provides users with a seamless shopping experience. The app includes features for user authentication, product search, detailed product views, shopping cart management, and wishlist management, all backed by Firebase for real-time data synchronization.
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Firebase Setup](#firebase-setup)
-- [Redux Setup](#redux-setup)
-- [Running the App](#running-the-app)
-- [Usage](#usage)
-- [Components](#components)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
