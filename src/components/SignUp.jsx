@@ -7,6 +7,7 @@ import {
   signInWithPopup,
   GoogleAuthProvider,
   FacebookAuthProvider,
+  updateProfile
 } from "firebase/auth";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
 import { FaFacebookF } from "react-icons/fa";
@@ -23,7 +24,7 @@ function SignUp() {
     gender: "",
     age: "",
     country: "",
-    mobileNumber: "", // Added mobile number
+    mobileNumber: "",
   });
 
   const handleChange = (e) => {
@@ -46,16 +47,27 @@ function SignUp() {
       );
 
       const db = getFirestore();
-      await setDoc(doc(db, "users", user.uid), {
-        fullName: formData.fullName,
+      await updateProfile(user, {
+        displayName: formData.fullName,
         email: formData.email,
         gender: formData.gender,
         age: formData.age,
         country: formData.country,
-        mobileNumber: formData.mobileNumber, // Added mobile number
+        phoneNumber: formData.mobileNumber, 
       });
 
       alert("Sign up successful!");
+      setFormData({
+        fullName: "",
+        email: "",
+        password: "",
+        confirmPassword: "",
+        gender: "",
+        age: "",
+        country: "",
+        mobileNumber: "",
+      });
+      navigate("/login");
     } catch (error) {
       alert("Error signing up: " + error.message);
     }
@@ -67,6 +79,7 @@ function SignUp() {
     try {
       await signInWithPopup(auth, provider);
       alert("Google sign up successful!");
+      navigate("/login");
     } catch (error) {
       alert("Error signing up with Google: " + error.message);
     }
@@ -78,6 +91,7 @@ function SignUp() {
     try {
       await signInWithPopup(auth, provider);
       alert("Facebook sign up successful!");
+      navigate("/login");
     } catch (error) {
       alert("Error signing up with Facebook: " + error.message);
     }

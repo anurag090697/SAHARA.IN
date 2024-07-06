@@ -13,6 +13,7 @@ import SearchResults from "./components/SearchResults";
 import ProductDetailed from "./components/ProductDetailed";
 import Cart from "./components/Cart";
 import Wishlisht from "./components/Wishlisht";
+import PlaceOrder from "./components/PlaceOrder";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, addToWishlist } from "./slice";
 import { db } from "./firebase"; // Import the Realtime Database instance
@@ -115,6 +116,7 @@ function App() {
             ></Route>
             <Route path='/cart' element={<Cart />}></Route>
             <Route path='/wishlist' element={<Wishlisht />}></Route>
+            <Route path="/placeorder" element={<PlaceOrder/>}></Route>
           </Routes>
           <Footer></Footer>
         </saharaContext.Provider>

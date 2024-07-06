@@ -283,11 +283,12 @@ const eCommerceSlice = createSlice({
     addToCart: (state, action) => {
       const item = action.payload;
       const existingItem = state.cart.find((ele) => ele.asin === item.asin);
-      if (item && item.length) {
-        item.forEach((ele) => {
-          state.cart.push(ele);
-        });
-      } else if (existingItem) {
+      // if (item && item.length) {
+      //   item.forEach((ele) => {
+      //     state.cart.push(ele);
+      //   });
+      // } else
+      if (existingItem) {
         existingItem.quantity += 1;
       } else {
         // let disc =
@@ -312,11 +313,12 @@ const eCommerceSlice = createSlice({
     addToWishlist: (state, action) => {
       const item = action.payload;
       const exists = state.wishlist.find((ele) => ele.asin === item.asin);
-      if (item && item.length) {
-        item.forEach((ele) => {
-          state.wishlist.push(ele);
-        });
-      } else if (!exists) {
+      // if (item && item.length) {
+      //   item.forEach((ele) => {
+      //     state.wishlist.push(ele);
+      //   });
+      // } else
+      if (!exists) {
         const newItem = {
           asin: item.asin,
           title: item.product_title,
@@ -328,6 +330,16 @@ const eCommerceSlice = createSlice({
         state.wishlist.push(newItem);
       } else {
         state.wishlist = state.wishlist.filter((ele) => ele.asin !== item.asin);
+      }
+    },
+    clearCart: (state) => {
+      state.cart = [];
+
+      if (state.userId) {
+        const cartRef = ref(db, `carts/${state.userId}`);
+        set(cartRef, state.cart).catch((error) => {
+          console.error("Error clearing cart in Firebase Realtime Database: ", error);
+        });
       }
     },
   },
@@ -446,7 +458,7 @@ const eCommerceSlice = createSlice({
   },
 });
 
-export const { addToCart, removeFromCart, addToWishlist } =
+export const { addToCart, removeFromCart, addToWishlist, clearCart } =
   eCommerceSlice.actions;
 
 export const eCommerceReducer = eCommerceSlice.reducer;

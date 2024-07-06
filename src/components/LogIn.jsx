@@ -14,7 +14,9 @@ import { saharaContext } from "../App";
 
 function LogIn() {
   const [failMessage, setFailMessage] = useState("");
+
   const { setUser } = useContext(saharaContext);
+
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     email: "",
@@ -31,7 +33,7 @@ function LogIn() {
           email: user.email,
           displayName: user.displayName,
         });
-        navigate("/");
+        // navigate("/");
       } else {
         // User is signed out
         setUser(null);
@@ -40,19 +42,33 @@ function LogIn() {
 
     // Cleanup subscription on unmount
     return () => unsubscribe();
-  }, [setUser, navigate]);
+  }, [setUser]);
 
   const handleChange = (e) => {
     setFailMessage("");
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   try {
+  //     const auth = getAuth();
+  //     await signInWithEmailAndPassword(auth, formData.email, formData.password);
+  //     // The onAuthStateChanged listener will handle setting the user and navigation
+  //   } catch (error) {
+  //     setFailMessage("Email / Password Incorrect. Try Again...");
+  //   }
+  // };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const auth = getAuth();
-      await signInWithEmailAndPassword(auth, formData.email, formData.password);
-      // The onAuthStateChanged listener will handle setting the user and navigation
+      const userCredential = await signInWithEmailAndPassword(auth, formData.email, formData.password);
+      setUser(userCredential.user); 
+
+      // console.log(userCredential)
+      // navigate("/"); 
     } catch (error) {
       setFailMessage("Email / Password Incorrect. Try Again...");
     }
