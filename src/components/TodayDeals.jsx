@@ -23,7 +23,7 @@ function TodayDeals() {
   console.log(searchResults);
   if (status === "loading") {
     return (
-      <div className='h-96 text-center w-fill bg-violet-500 text-amber-600 font-medium text-3xl'>
+      <div className='h-dvh text-center w-fill bg-violet-500 text-amber-600 font-medium text-3xl'>
         Loading...
       </div>
     );

@@ -30,7 +30,7 @@ function SearchResults() {
   return (
     <div className='p-10 mx-auto'>
       {searchResults < 1 ? (
-        <h1>LOADING......</h1>
+        <div className='h-dvh text-center w-fill bg-violet-500 text-amber-600 font-medium text-3xl'>LOADING......</div>
       ) : (
         searchResults.map((ele, index) => {
           return <ProductCard info={ele} key={index}></ProductCard>;

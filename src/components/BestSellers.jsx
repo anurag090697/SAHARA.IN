@@ -26,7 +26,7 @@ function BestSellers() {
   }
 
   if (status === "failed") {
-    return <div className="h-96 text-center w-fill bg-sky-500 text-rose-600 font-medium text-3xl">Loading...</div>;
+    return <div className="h-dvh text-center w-fill bg-sky-500 text-rose-600 font-medium text-3xl">Loading...</div>;
   }
 
   if (!searchResults) {

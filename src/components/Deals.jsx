@@ -21,7 +21,7 @@ function Deals() {
   );
   console.log(searchResults);
   if (status === "loading") {
-    return <div className="h-96 text-center w-fill bg-black text-white font-medium text-3xl">Loading...</div>;
+    return <div className="h-dvh text-center w-fill bg-black text-white font-medium text-3xl">Loading...</div>;
   }
 
   if (status === "failed") {

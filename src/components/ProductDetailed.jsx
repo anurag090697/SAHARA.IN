@@ -96,15 +96,15 @@ function ProductDetailed() {
   }
 
   if (status === "loading") {
-    return <p>Loading...</p>;
+    return <div className='h-dvh text-center w-fill bg-violet-500 text-amber-600 font-medium text-3xl'>Loading...</div>;
   }
 
   if (status === "failed") {
-    return <p>Error: {error}</p>;
+    return <div className='h-dvh text-center w-fill bg-violet-500 text-amber-600 font-medium text-3xl'>Error: {error}</div>;
   }
 
   if (!productDetails) {
-    return <div>No product details available.</div>;
+    return <div className='h-dvh text-center w-fill bg-violet-500 text-amber-600 font-medium text-3xl'>No product details available.</div>;
   }
   return (
     <div className='px-14 py-6'>
